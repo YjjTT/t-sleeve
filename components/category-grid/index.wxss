@@ -1,1 +1,26 @@
 /* components/category-grid/index.wxss */
+.container {
+    height: 320rpx;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container {
+    width: 730rpx;
+    height: 300rpx;
+    border: 1px dashed #DCEBE6;
+}
+.grid-item {
+    width: 200rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-img {
+    width: 60rpx;
+    height: 60rpx;
+}
+.item-text {
+
+}

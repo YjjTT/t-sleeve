@@ -1,6 +1,7 @@
 // pages/home/home.js
 import {Theme} from "../../model/theme";
 import {Banner} from "../../model/banner";
+import {Category} from "../../model/category";
 
 Page({
     /**
@@ -8,7 +9,8 @@ Page({
      */
     data: {
         themeA: null,
-        bannerB: null
+        bannerB: null,
+        grid: []
     },
     onLoad(options) {
         this.initAllData()
@@ -16,9 +18,11 @@ Page({
     async initAllData() {
         const themeA = await Theme.getHomeLoactionA()
         const bannerB = await Banner.getHomeLoactionB()
+        const grid = await Category.getGridCategory()
         this.setData({
             themeA: themeA[0],
-            bannerB
+            bannerB,
+            grid
         })
     },
     onPullDownRefresh: function () {

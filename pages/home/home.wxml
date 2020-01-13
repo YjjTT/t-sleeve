@@ -12,4 +12,5 @@
             </swiper-item>
         </block>
     </swiper>
+    <t-category-grid grid="{{grid}}"></t-category-grid>
 </view>
