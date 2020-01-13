@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="" />
+    <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/model/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W9OlDReAURSbWXrwarf1QfdrpH" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,6 +41,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -41,10 +67,42 @@
       <option name="presentableId" value="Default" />
       <updated>1578558493732</updated>
       <workItem from="1578558498417" duration="627000" />
+      <workItem from="1578887896445" duration="28000" />
+      <workItem from="1578887959792" duration="26000" />
+      <workItem from="1578888013584" duration="20000" />
+      <workItem from="1578892189221" duration="7000" />
+      <workItem from="1578892198057" duration="5000" />
+      <workItem from="1578892204158" duration="8487000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1478" height="278" key="GridCell.Tab.0.bottom" timestamp="1578900466457">
+      <screen x="-65" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1478" height="278" key="GridCell.Tab.0.bottom/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578900466457" />
+    <state width="1478" height="278" key="GridCell.Tab.0.center" timestamp="1578900466456">
+      <screen x="-65" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1478" height="278" key="GridCell.Tab.0.center/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578900466456" />
+    <state width="1478" height="278" key="GridCell.Tab.0.left" timestamp="1578900466455">
+      <screen x="-65" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1478" height="278" key="GridCell.Tab.0.left/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578900466455" />
+    <state width="1478" height="278" key="GridCell.Tab.0.right" timestamp="1578900466456">
+      <screen x="-65" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1478" height="278" key="GridCell.Tab.0.right/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578900466456" />
+    <state x="448" y="-890" key="SettingsEditor" timestamp="1578892294439">
+      <screen x="-65" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="448" y="-890" key="SettingsEditor/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578892294439" />
+    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup" timestamp="1578898868243">
+      <screen x="-65" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578898868243" />
   </component>
 </project>

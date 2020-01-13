@@ -1,0 +1,22 @@
+{
+  "name": "sleeve",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "lin-ui": "~0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YjjTT/t-sleeve.git"
+  },
+  "author": "TAO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YjjTT/t-sleeve/issues"
+  },
+  "homepage": "https://github.com/YjjTT/t-sleeve#readme"
+}
