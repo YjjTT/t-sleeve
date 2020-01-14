@@ -19,8 +19,11 @@ Page({
         themeF: null,
         themeH: null
     },
-    onLoad(options) {
+    async onLoad(options) {
         this.initAllData()
+    },
+    async initBottomSpuList() {
+
     },
     async initAllData() {
         const theme = new Theme()

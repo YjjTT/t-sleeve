@@ -18,4 +18,8 @@
     <image src="{{themeF.entrance_img}}" class="quality"></image>
     <t-hot-list banner="{{bannerG}}"></t-hot-list>
     <image src="{{themeH.entrance_img}}" class="fashion"></image>
+    <view class="spu-bottom">
+        <image src="/images/home/title@interest.png" class="title-spu-bottom" />
+        <t-water-flow></t-water-flow>
+    </view>
 </view>
