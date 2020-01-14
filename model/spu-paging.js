@@ -1,10 +1,11 @@
 import {Http} from "../utils/http";
+import {Paging} from "../utils/paging";
 
-class Spu {
-    static async getLatest() {
-        Http.request({
-            url: ``
-        })
+class SpuPaging {
+    static async getLatestPaging() {
+        return new Paging({
+            url: `/spu/latest`
+        }, 3, 0)
     }
     // 分页
     //1. 一条数据都没有
@@ -18,5 +19,5 @@ class Spu {
     // a.类为核心 b.函数为核心, ES6 class 使得JS和其他主流语言有了相同的思维方式 OO
 }
 export {
-    Spu
+    SpuPaging
 }

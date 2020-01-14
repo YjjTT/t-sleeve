@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/home/title@interest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/spu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yjjtt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yjjtt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/spu.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/paging.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1578892198057" duration="5000" />
       <workItem from="1578892204158" duration="10424000" />
       <workItem from="1578965754254" duration="2299000" />
-      <workItem from="1578969912246" duration="16525000" />
+      <workItem from="1578969912246" duration="18987000" />
     </task>
     <servers />
   </component>
@@ -115,10 +112,10 @@
     </state>
     <state x="-15" y="-956" key="SettingsEditor/45.23.1395.877/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578986530649" />
     <state x="448" y="-890" key="SettingsEditor/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578892294439" />
-    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup" timestamp="1578994606899">
+    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup" timestamp="1578997306526">
       <screen x="-65" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1395.877/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578994606899" />
+    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1395.877/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578997306526" />
     <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578898868243" />
   </component>
 </project>
