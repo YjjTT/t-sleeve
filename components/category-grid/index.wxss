@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
 }
 .inner-container {
     width: 730rpx;
@@ -22,5 +23,7 @@
     height: 60rpx;
 }
 .item-text {
-
+    margin-top: 6rpx;
+    font-size: 24rpx;
+    color: #333333;
 }

@@ -12,5 +12,7 @@
             </swiper-item>
         </block>
     </swiper>
-    <t-category-grid grid="{{grid}}"></t-category-grid>
+    <t-category-grid grid="{{gridC}}"></t-category-grid>
+    <image class="activity" src="{{activityD.entrance_img}}"></image>
+    <t-spu-scroll wx:if="{{themeE.online}}" theme="{{themeE}}" spu-list="{{themeESpu}}"></t-spu-scroll>
 </view>

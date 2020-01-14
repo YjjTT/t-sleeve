@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "t-category-grid": "/components/category-grid/index"
+    "t-category-grid": "/components/category-grid/index",
+    "t-spu-scroll": "/components/spu-scroll/index"
   }
 }

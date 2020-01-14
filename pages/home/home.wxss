@@ -2,12 +2,22 @@
 .top-theme {
     width: 100%;
     height: 260rpx;
+    display: flex;
 }
+
 .swiper {
     width: 100%;
     height: 360rpx;
 }
+
 .swiper-img {
     width: 100%;
     height: 360rpx;
+}
+
+.activity {
+    margin-top: 20rpx;
+    width: 100%;
+    height: 310rpx;
+    display: flex;
 }
