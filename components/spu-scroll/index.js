@@ -4,6 +4,7 @@ Component({
      * 组件的属性列表
      */
     properties: {
+        // externalClasses: ['l-class'], 外部样式类
         theme: Object,
         spuList: Array
     },

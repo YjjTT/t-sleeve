@@ -1,6 +1,6 @@
 <!-- pages/home/home.wxml -->
 <view>
-    <image src="" class="top-theme" src="{{themeA.entrance_img}}"/>
+    <image class="top-theme" src="{{themeA.entrance_img}}"/>
     <swiper class="swiper"
             indicator-dots
             indicator-active-color="#157658"
@@ -15,4 +15,7 @@
     <t-category-grid grid="{{gridC}}"></t-category-grid>
     <image class="activity" src="{{activityD.entrance_img}}"></image>
     <t-spu-scroll wx:if="{{themeE.online}}" theme="{{themeE}}" spu-list="{{themeESpu}}"></t-spu-scroll>
+    <image src="{{themeF.entrance_img}}" class="quality"></image>
+    <t-hot-list banner="{{bannerG}}"></t-hot-list>
+    <image src="{{themeH.entrance_img}}" class="fashion"></image>
 </view>

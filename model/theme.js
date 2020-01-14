@@ -28,6 +28,12 @@ class Theme {
     async getHomeLoactionE() {
         return this.themes.find(t => t.name === Theme.locationE)
     }
+    async getHomeLoactionF() {
+        return this.themes.find(t => t.name === Theme.locationF)
+    }
+    async getHomeLoactionH() {
+        return this.themes.find(t => t.name === Theme.locationH)
+    }
 
     // 一次性数据 加 static
     // 需要等待代码执行,处理后续结果,才加await

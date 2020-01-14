@@ -3,6 +3,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 42rpx 0 34rpx 28rpx;
+    background-color: #ffffff;
 }
 .title {
     width: 694rpx;
