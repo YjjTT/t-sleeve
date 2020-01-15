@@ -18,17 +18,21 @@ Page({
         themeE: null,
         themeESpu: [],
         themeF: null,
-        themeH: null
+        themeH: null,
+        spuPaging: null
     },
     async onLoad(options) {
         this.initAllData()
+        this.initBottomSpuList()
     },
     async initBottomSpuList() {
         const paging = await SpuPaging.getLatestPaging()
-        const data = paging.getMoreData()
+        this.data.spuPaging = paging
+        const data = await paging.getMoreData()
         if(!data){
             return
         }
+        wx.lin.renderWaterFlow(data.items)
     },
     async initAllData() {
         const theme = new Theme()
@@ -66,7 +70,12 @@ Page({
     },
     onPullDownRefresh: function () {
     },
-    onReachBottom: function () {
+    onReachBottom: async function () {
+        const data = await this.data.spuPaging.getMoreData()
+        if(!data){
+            return
+        }
+        wx.lin.renderWaterFlow(data.items)
     },
     onShareAppMessage: function () {
     }

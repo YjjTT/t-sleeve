@@ -20,6 +20,6 @@
     <image src="{{themeH.entrance_img}}" class="fashion"></image>
     <view class="spu-bottom">
         <image src="/images/home/title@interest.png" class="title-spu-bottom" />
-        <t-water-flow></t-water-flow>
+        <t-water-flow generic:l-water-flow-item="t-spu-preview"></t-water-flow>
     </view>
 </view>
