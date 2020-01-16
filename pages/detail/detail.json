@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "t-realm": "/components/realm/index"
+  }
 }

@@ -1,6 +1,6 @@
 <wxs src="../../wxs/price.wxs" module="p"></wxs>
-<view class="container" bind:tap="onItemTap">
-    <image bind:load="onImgLoad" data-pid="{{data.id}}" style="width: {{w}}rpx;height: {{h}}rpx" src="{{data.img}}"></image>
+<view class="container" bind:tap="onItemTap" data-pid="{{data.id}}">
+    <image bind:load="onImgLoad" style="width: {{w}}rpx;height: {{h}}rpx" src="{{data.img}}"></image>
     <view class="content-container">
         <text class="title">{{data.title}}</text>
         <view class="tags">

@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/modles/fence-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modles/fence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/spu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/category-grid/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/category-grid/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/spu-paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/spu-paging.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W9OlDReAURSbWXrwarf1QfdrpH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -81,7 +82,7 @@
       <workItem from="1578892204158" duration="10424000" />
       <workItem from="1578965754254" duration="2299000" />
       <workItem from="1578969912246" duration="25139000" />
-      <workItem from="1579139913599" duration="3201000" />
+      <workItem from="1579139913599" duration="6405000" />
     </task>
     <servers />
   </component>
@@ -122,10 +123,10 @@
       <screen x="-65" y="-1057" width="1920" height="1057" />
     </state>
     <state x="762" y="-293" key="run.anything.popup/45.23.1395.877/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1579053761379" />
-    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup" timestamp="1579140580118">
+    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup" timestamp="1579157391863">
       <screen x="-65" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1395.877/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1579140580118" />
+    <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1395.877/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1579157391863" />
     <state x="604" y="-806" width="670" height="676" key="search.everywhere.popup/45.23.1635.1027/-65.-1057.1920.1057@-65.-1057.1920.1057" timestamp="1578898868243" />
   </component>
 </project>

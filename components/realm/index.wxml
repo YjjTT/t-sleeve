@@ -1,0 +1,16 @@
+<view class="container">
+    <view>
+        <image src=""></image>
+        <view>
+            <l-price></l-price>
+            <text></text>
+        </view>
+    </view>
+    <block wx:for="{{}}">
+        <t-fence></t-fence>
+    </block>
+
+    <view class="counter-container">
+<!--        <l-counter></l-counter>-->
+    </view>
+</view>
