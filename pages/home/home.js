@@ -19,7 +19,8 @@ Page({
         themeESpu: [],
         themeF: null,
         themeH: null,
-        spuPaging: null
+        spuPaging: null,
+        loadingType: 'loading'
     },
     async onLoad(options) {
         this.initAllData()
@@ -76,6 +77,11 @@ Page({
             return
         }
         wx.lin.renderWaterFlow(data.items)
+        if (!data.moreData){
+            this.setData({
+                loadingType: 'end'
+            })
+        }
     },
     onShareAppMessage: function () {
     }

@@ -5,7 +5,7 @@ class SpuPaging {
     static async getLatestPaging() {
         return new Paging({
             url: `/spu/latest`
-        }, 3, 0)
+        }, 5, 0)
     }
     // 分页
     //1. 一条数据都没有

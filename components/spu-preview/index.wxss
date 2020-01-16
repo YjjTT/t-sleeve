@@ -8,8 +8,8 @@
     background-color: #ffffff;
 }
 .img {
-    width: 100%;
-    height: 360rpx;
+    /*width: 100%;*/
+    /*height: 360rpx;*/
 }
 .tags {
     display: flex;

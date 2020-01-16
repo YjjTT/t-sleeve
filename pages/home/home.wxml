@@ -1,25 +1,27 @@
 <!-- pages/home/home.wxml -->
-<view>
-    <image class="top-theme" src="{{themeA.entrance_img}}"/>
-    <swiper class="swiper"
-            indicator-dots
-            indicator-active-color="#157658"
-            autoplay
-            circular>
-        <block wx:for="{{bannerB.items}}" wx:key="index">
-            <swiper-item>
-                <image class="swiper-img" src="{{item.img}}"></image>
-            </swiper-item>
-        </block>
-    </swiper>
-    <t-category-grid grid="{{gridC}}"></t-category-grid>
-    <image class="activity" src="{{activityD.entrance_img}}"></image>
-    <t-spu-scroll wx:if="{{themeE.online}}" theme="{{themeE}}" spu-list="{{themeESpu}}"></t-spu-scroll>
-    <image src="{{themeF.entrance_img}}" class="quality"></image>
-    <t-hot-list banner="{{bannerG}}"></t-hot-list>
-    <image src="{{themeH.entrance_img}}" class="fashion"></image>
-    <view class="spu-bottom">
-        <image src="/images/home/title@interest.png" class="title-spu-bottom" />
-        <t-water-flow generic:l-water-flow-item="t-spu-preview"></t-water-flow>
+<l-loadmore show type="{{loadingType}}">
+    <view slot="content" class="container">
+        <image class="top-theme" src="{{themeA.entrance_img}}"/>
+        <swiper class="swiper"
+                indicator-dots
+                indicator-active-color="#157658"
+                autoplay
+                circular>
+            <block wx:for="{{bannerB.items}}" wx:key="{{index}}">
+                <swiper-item>
+                    <image class="swiper-img" src="{{item.img}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+        <t-category-grid grid="{{gridC}}"></t-category-grid>
+        <image class="activity" src="{{activityD.entrance_img}}"></image>
+        <t-spu-scroll wx:if="{{themeE.online}}" theme="{{themeE}}" spu-list="{{themeESpu}}"></t-spu-scroll>
+        <image src="{{themeF.entrance_img}}" class="quality"></image>
+        <t-hot-list banner="{{bannerG}}"></t-hot-list>
+        <image src="{{themeH.entrance_img}}" class="fashion"></image>
+        <view class="spu-bottom">
+            <image src="/images/home/title@interest.png" class="title-spu-bottom"/>
+            <t-water-flow generic:l-water-flow-item="t-spu-preview"></t-water-flow>
+        </view>
     </view>
-</view>
+</l-loadmore>
