@@ -1,6 +1,7 @@
 import {config} from "../config/config";
 import {promisic} from "./util";
 
+
 class Http {
     static async request({url, data, method = 'GET'}) {
         const res = await promisic(wx.request)({
