@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/modles/cell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/modles/matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modles/judger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modles/sku-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/enum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yjjtt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yjjtt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modles/cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/cell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modles/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/fence-group.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modles/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/fence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modles/matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/matrix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +113,10 @@
       <workItem from="1583043212466" duration="390000" />
       <workItem from="1583732574929" duration="559000" />
       <workItem from="1588059765571" duration="2537000" />
-      <workItem from="1588147928097" duration="7098000" />
+      <workItem from="1588147928097" duration="8178000" />
+      <workItem from="1588211060053" duration="883000" />
+      <workItem from="1588219031781" duration="1053000" />
+      <workItem from="1588224186365" duration="13198000" />
     </task>
     <servers />
   </component>

@@ -6,8 +6,8 @@
             <text></text>
         </view>
     </view>
-    <block wx:for="{{}}">
-        <t-fence></t-fence>
+    <block wx:for="{{fences}}" wx:key="{{index}}">
+        <t-fence x="{{index}}" bind:celltap="onCellTap" fence="{{item}}"></t-fence>
     </block>
 
     <view class="counter-container">
