@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/modles/judger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/modles/sku-code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/enum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yjjtt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yjjtt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modles/sku-pending.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/joiner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modles/cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/cell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modles/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/fence-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modles/fence.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/fence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modles/matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/matrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modles/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/judger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/spu.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/spu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,7 +111,12 @@
       <workItem from="1588147928097" duration="8178000" />
       <workItem from="1588211060053" duration="883000" />
       <workItem from="1588219031781" duration="1053000" />
-      <workItem from="1588224186365" duration="13198000" />
+      <workItem from="1588224186365" duration="14159000" />
+      <workItem from="1588643059871" duration="12234000" />
+      <workItem from="1588668222696" duration="186000" />
+      <workItem from="1588668418504" duration="448000" />
+      <workItem from="1588668895439" duration="120000" />
+      <workItem from="1588669037017" duration="78000" />
     </task>
     <servers />
   </component>
@@ -128,10 +128,19 @@
       <screen x="45" y="23" width="1635" height="1027" />
     </state>
     <state x="590" y="336" key="#com.intellij.fileTypes.FileTypeChooser/45.23.1635.1027/-86.-1057.1920.1057@45.23.1635.1027" timestamp="1588150790177" />
+    <state x="349" y="-931" key="SettingsEditor" timestamp="1588669114527">
+      <screen x="-86" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="349" y="-931" key="SettingsEditor/45.23.1635.1027/-86.-1057.1920.1057@-86.-1057.1920.1057" timestamp="1588669114527" />
+    <state x="348" y="110" key="SettingsEditor/45.23.1635.1027/-86.-1057.1920.1057@45.23.1635.1027" timestamp="1588668490310" />
     <state x="450" y="233" width="825" height="607" key="find.popup" timestamp="1582362415841">
       <screen x="46" y="23" width="1634" height="1027" />
     </state>
     <state x="391" y="202" width="703" height="518" key="find.popup/46.23.1394.877@46.23.1394.877" timestamp="1582107322332" />
     <state x="450" y="233" width="825" height="607" key="find.popup/46.23.1634.1027@46.23.1634.1027" timestamp="1582362415841" />
+    <state x="527" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1588644154979">
+      <screen x="45" y="23" width="1635" height="1027" />
+    </state>
+    <state x="527" y="250" width="670" height="676" key="search.everywhere.popup/45.23.1635.1027/-86.-1057.1920.1057@45.23.1635.1027" timestamp="1588644154979" />
   </component>
 </project>
