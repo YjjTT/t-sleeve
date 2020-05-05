@@ -16,24 +16,11 @@ Component({
         return
       }
       if (Spu.isNoSpec(spu)) {
-        this.setData({
-          noSpec: true
-        })
-        this.bindSkuData(spu.sku_list[0])
-      }
-      const fencesGroup = new FenceGroup(spu)
-      fencesGroup.initFences()
-      const judger = new Judger(fencesGroup)
-      this.data.judger = judger
-
-      const defaultSku = fencesGroup.getDefaultSku()
-      if (defaultSku) {
-        this.bindSkuData(defaultSku)
+        this.processNoSpec(spu)
       }
       else {
-        this.bindSpuData()
+        this.processHasSpec(spu)
       }
-      this.bindInitData(fencesGroup)
     }
   },
   /**
@@ -49,13 +36,36 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    processNoSpec(spu) {
+      this.setData({
+        noSpec: true
+      })
+      this.bindSkuData(spu.sku_list[0])
+    },
+    processHasSpec(spu) {
+      const fencesGroup = new FenceGroup(spu)
+      fencesGroup.initFences()
+      const judger = new Judger(fencesGroup)
+      this.data.judger = judger
+
+      const defaultSku = fencesGroup.getDefaultSku()
+      if (defaultSku) {
+        this.bindSkuData(defaultSku)
+      }
+      else {
+        this.bindSpuData()
+      }
+      this.bindTipData()
+      this.bindFenceGroupData(fencesGroup)
+    },
     bindSpuData() {
       const spu = this.properties.spu
       this.setData({
         previewImg: spu.img,
         title: spu.title,
         price: spu.price,
-        discountPrice: spu.discount_price
+        discountPrice: spu.discount_price,
+        skuIntact: this.data.judger.isSkuInTact()
       })
     },
     bindSkuData(sku) {
@@ -64,22 +74,31 @@ Component({
         title: sku.title,
         price: sku.price,
         discountPrice: sku.discount_price,
-        stock: sku.stock
+        stock: sku.stock,
+        skuIntact: this.data.judger.isSkuInTact()
       })
     },
-    bindInitData(fenceGroup) {
+
+    bindTipData() {
+      this.setData({
+        skuIntact: this.data.judger.isSkuInTact()
+      })
+    },
+
+    bindFenceGroupData(fenceGroup) {
       this.setData({
         fences: fenceGroup.fences
       })
     },
-
     onCellTap(e) {
       const {cell, x, y} = e.detail
       const judger = this.data.judger
       judger.judge(cell,x,y)
-      this.setData({
-        fences: judger.fenceGroup.fences
-      })
+      const skuIntact = judger.isSkuInTact()
+      if (skuIntact) {
+
+      }
+      this.bindFenceGroupData(judger.fenceGroup)
     }
   }
 })

@@ -10,7 +10,6 @@ class Fence {
         this.title = specs[0].key
         this.id = specs[0].key_id
     }
-
     init() {
         this._initCells()
     }
