@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="judger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+=======
+    <list default="true" id="6f3c442f-7b57-4087-a80d-6aa48bcfbc11" name="Default Changelist" comment="SKU spu 规格选择">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 91387a58371655607c83689f059d2d82d5d5dace
       <change beforePath="$PROJECT_DIR$/components/modles/fence-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/fence-group.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modles/judger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/judger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modles/sku-pending.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/modles/sku-pending.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/components/realm/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
+=======
+>>>>>>> 91387a58371655607c83689f059d2d82d5d5dace
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +126,10 @@
       <workItem from="1588669676945" duration="34000" />
       <workItem from="1588669732260" duration="5926000" />
       <workItem from="1588727519821" duration="708000" />
+<<<<<<< HEAD
       <workItem from="1588728780393" duration="4721000" />
+=======
+>>>>>>> 91387a58371655607c83689f059d2d82d5d5dace
     </task>
     <task id="LOCAL-00001" summary="SKU spu 规格选择">
       <created>1588669159416</created>
@@ -153,7 +164,11 @@
     <state x="311" y="-1054" key="CommitChangelistDialog2" timestamp="1588729679077">
       <screen x="-86" y="-1057" width="1920" height="1057" />
     </state>
+<<<<<<< HEAD
     <state x="311" y="-1054" key="CommitChangelistDialog2/45.23.1635.1027/-86.-1057.1920.1057@45.23.1635.1027" timestamp="1588729679077" />
+=======
+    <state x="444" y="51" key="CommitChangelistDialog2/45.23.1635.1027/-86.-1057.1920.1057@45.23.1635.1027" timestamp="1588669168256" />
+>>>>>>> 91387a58371655607c83689f059d2d82d5d5dace
     <state x="348" y="110" key="SettingsEditor" timestamp="1588728519934">
       <screen x="45" y="23" width="1635" height="1027" />
     </state>
