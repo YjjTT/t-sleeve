@@ -8,6 +8,7 @@ class SkuPending {
     constructor(size) {
         this.size = size
     }
+
     init(sku) {
         for (let i=0; i <sku.specs.length; i++) {
             const cell = new Cell(sku.specs[i])
@@ -15,11 +16,29 @@ class SkuPending {
         }
     }
 
-    getSkuCode() {
-        const joiner = new Joiner()
-        this.pending.forEach(cell => {
-            
+    getCurrentSpecValues() {
+        return this.pending.map(cell => {
+            return cell ? cell.spec.value : null
         })
+    }
+
+    getMissingSpecKeysIndex() {
+        const keysIndex = []
+        for (let i = 0; i < this.size; i++) {
+            if (!this.pending[i]) {
+                keysIndex.push(i)
+            }
+        }
+        return keysIndex
+    }
+
+    getSkuCode() {
+        const joiner = new Joiner('#')
+        this.pending.forEach(cell => {
+            const cellCode = cell.getCellCode()
+            joiner.join(cellCode)
+        })
+        return joiner.getStr()
     }
 
     isIntact() {

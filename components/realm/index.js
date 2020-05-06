@@ -2,6 +2,7 @@
 import {FenceGroup} from "../modles/fence-group";
 import {Judger} from "../modles/judger";
 import {Spu} from "../../model/spu";
+import {Cell} from "../modles/cell";
 
 Component({
   /**
@@ -81,7 +82,9 @@ Component({
 
     bindTipData() {
       this.setData({
-        skuIntact: this.data.judger.isSkuInTact()
+        skuIntact: this.data.judger.isSkuInTact(),
+        currentValues: this.data.judger.getCurrentValues(),
+        missingKeys: this.data.judger.getMissingKeys()
       })
     },
 
@@ -91,13 +94,18 @@ Component({
       })
     },
     onCellTap(e) {
-      const {cell, x, y} = e.detail
+      const data = e.detail.cell
+      const {x, y} = e.detail
+      const cell = new Cell(data.spec)
+      cell.status = data.status
       const judger = this.data.judger
       judger.judge(cell,x,y)
       const skuIntact = judger.isSkuInTact()
       if (skuIntact) {
-
+        const currentSku = judger.getDeterminateSku()
+        this.bindSkuData(currentSku)
       }
+      this.bindTipData()
       this.bindFenceGroupData(judger.fenceGroup)
     }
   }
