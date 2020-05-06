@@ -16,10 +16,12 @@ class SkuPending {
     }
 
     getSkuCode() {
-        const joiner = new Joiner()
+        const joiner = new Joiner('#')
         this.pending.forEach(cell => {
-            
+            const cellCode = cell.getCellCode()
+            joiner.join(cellCode)
         })
+        return joiner.getStr()
     }
 
     isIntact() {

@@ -62,6 +62,12 @@ class Judger {
         })
     }
 
+    getDeterminateSku() {
+        const code = this.skuPending.getSkuCode()
+        const sku = this.fenceGroup.getSku(code)
+        return sku
+    }
+
     _isInDict(path) {
         return this.pathDict.includes(path)
     }
