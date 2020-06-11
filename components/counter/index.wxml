@@ -2,5 +2,9 @@
            l-symbol-class="all-background font-color"
            l-disabled-class="all-background"
            l-class="container"
+           count="{{count}}"
+           max="{{max}}"
+           min="{{min}}"
+           bind:linout="onOverStep"
 >
 </l-counter>

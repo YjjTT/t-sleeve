@@ -97,10 +97,7 @@ Component({
       const data = e.detail.cell
       const {x, y} = e.detail
       const cell = new Cell(data.spec)
-<<<<<<< HEAD
       cell.status = data.status
-=======
->>>>>>> 91387a58371655607c83689f059d2d82d5d5dace
       const judger = this.data.judger
       judger.judge(cell,x,y)
       const skuIntact = judger.isSkuInTact()

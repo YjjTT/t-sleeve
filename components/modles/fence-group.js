@@ -19,12 +19,8 @@ class FenceGroup {
     }
 
     getSku(skuCode) {
-<<<<<<< HEAD
         const fullSkuCode = this.spu.id + '$' + skuCode
         const sku = this.spu.sku_list.find(s => s.code === fullSkuCode)
-=======
-        const sku = this.spu.sku_list.find(s => s.code === skuCode)
->>>>>>> 91387a58371655607c83689f059d2d82d5d5dace
         return sku?sku:null
     }
     setCellStatusById(cellId, status) {
